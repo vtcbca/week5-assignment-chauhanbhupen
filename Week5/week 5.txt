@@ -39,4 +39,3 @@ with open("c:\\sqlite3\\student.csv","r")as stud:
     r=csv.DictReader(stud)
     for i in r:
         print(i)
-print()
